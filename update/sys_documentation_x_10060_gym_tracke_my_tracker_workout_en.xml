@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="workout" label="Workout" language="en" table="x_10060_gym_tracke_my_tracker">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>workout</element>
+            <help/>
+            <hint/>
+            <label>Workout</label>
+            <language>en</language>
+            <name>x_10060_gym_tracke_my_tracker</name>
+            <plural>Workouts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-05 16:35:39</sys_created_on>
+            <sys_id>9273d4a44f230300615fc3818110c7a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Workout</sys_name>
+            <sys_package display_value="Gym Tracker" source="x_10060_gym_tracke">4b242e404f230300615fc3818110c77e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gym Tracker">4b242e404f230300615fc3818110c77e</sys_scope>
+            <sys_update_name>sys_documentation_x_10060_gym_tracke_my_tracker_workout_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-05 16:35:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

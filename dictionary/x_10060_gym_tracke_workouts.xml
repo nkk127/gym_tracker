@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Workouts" max_length="40" name="x_10060_gym_tracke_workouts" type="collection">
+        <element choice="1" label="Intensity" max_length="40" name="intensity" type="choice">
+            <choice/>
+        </element>
+        <element label="Workout Name" max_length="40" name="workout_name" type="string"/>
+        <element label="Workout Type" max_length="40" name="workout_type" type="string"/>
+    </element>
+</database>

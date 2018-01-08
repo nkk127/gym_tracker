@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="User Details" max_length="40" name="x_10060_gym_tracke_user_details" type="collection">
+        <element label="Age" max_length="10" name="age" type="integer"/>
+        <element label="Height" max_length="40" name="height" type="integer"/>
+        <element choice="1" label="Sex" max_length="40" name="sex" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="User Name" max_length="40" name="user_name" type="string"/>
+        <element label="Weight" max_length="40" name="weight" type="integer"/>
+    </element>
+</database>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="My Tracker" max_length="40" name="x_10060_gym_tracke_my_tracker" type="collection">
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Rep" max_length="40" name="rep" type="string"/>
+        <element label="Set" max_length="40" name="set" type="string"/>
+        <element label="User" max_length="32" name="user" reference="x_10060_gym_tracke_user_details" type="reference"/>
+        <element label="Workout" max_length="32" name="workout" reference="x_10060_gym_tracke_workouts" type="reference"/>
+        <index name="index">
+            <element name="workout"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
